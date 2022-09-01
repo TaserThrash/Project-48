@@ -197,7 +197,7 @@ function draw() {
   if(instruct){
     push();
     textSize(40);
-    text("jump dodge candy corn collect $", 40, 40);
+    text("jump dodge candy corn collect $ up be jump", 40, 40);
     pop();
   }
 }
