@@ -107,20 +107,9 @@ function draw() {
     }
 
     if(i.y < -2000){
-      if(l <= 0){
+      if(l >= -10000){
         st();
         alert("YOU LOSE😭");
-      }
-      else{
-        l--;
-        for(let i of islands){
-          i.y -= islands[0].y + y + 80;
-          i.x -= islands[0].x + x;
-        }
-        for(let i of obstacles){
-          i.y -= islands[0].y + y + 80;
-          i.x -= islands[0].x + x;
-        }
       }
     }
   }
